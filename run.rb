@@ -4,7 +4,9 @@ require 'pry'
 
 
 #Test your code here
-
+def animal.all 
+    @animal = animal 
+end
 
 binding.pry
 puts "done"
