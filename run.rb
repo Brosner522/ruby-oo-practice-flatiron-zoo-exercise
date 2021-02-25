@@ -4,9 +4,6 @@ require 'pry'
 
 
 #Test your code here
-def animal.all 
-    @animal = animal 
-end
-
+rabbit = Animal.new("bunny", "2", "rabby")
 binding.pry
-puts "done"
+# puts "done"

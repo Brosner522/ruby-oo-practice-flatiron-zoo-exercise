@@ -10,10 +10,7 @@ class Zoo
         @@all << self 
     end
 
-    def @animals = (animals)
-        @animals = animals
-    end
-
+    
 
     def self.all
         @@all 
