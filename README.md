@@ -21,7 +21,7 @@ _Keep in mind that in order to properly build out the relationships between an `
 -X `Zoo#location` should return the location of the zoo instance.
 -X `Zoo#name` should return the name of the zoo instance.
 -X `Zoo.all` should return an array of all the zoo instances.
-- `Zoo#animals` should return all the animals that a specific instance of a zoo has.
+-X `Zoo#animals` should return all the animals that a specific instance of a zoo has.
 - `Zoo#animal_species` should return an array of all the species (as strings) of the animals in the zoo. However, if you have two dogs, it should only return one "Dog" string (aka an **unique** array).
 - `Zoo#find_by_species` should take in an animal's species as an argument and return an array of all the animals in that zoo, which are of that species.
 - `Zoo#animal_nicknames` should return an array of all the nicknames of animals that a specific instance of a zoo has.

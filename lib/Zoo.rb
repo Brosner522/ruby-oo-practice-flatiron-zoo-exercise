@@ -14,9 +14,15 @@ class Zoo
 
     def self.all
         @@all 
-        
     end
 
 
+    def animals
+        Animal.all
+    end
+
+    def animal_species
+        Animal.all.collect {|animal| animal.species }
+      end
 
 end
